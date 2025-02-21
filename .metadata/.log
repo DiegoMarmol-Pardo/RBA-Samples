@@ -1,0 +1,457 @@
+!SESSION 2025-02-21 10:48:31.283 -----------------------------------------------
+eclipse.buildId=6.1.0.241008-f7568267cd
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ecf.provider.filetransfer.httpclient5.win32 4 0 2025-02-21 10:48:35.677
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ecf.provider.filetransfer.httpclient5.win32 [159]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.3,6.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2074)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2065)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2005)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1968)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1884)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.epp.mpc.core.win32 4 0 2025-02-21 10:48:35.833
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core.win32 [176]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.0,5.4.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2074)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2065)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2005)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1968)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1884)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.omnetpp.main 1 0 2025-02-21 10:48:44.425
+!MESSAGE OMNeT++ IDE 6.1.0.241008-f7568267cd started.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-21 10:48:57.642
+!MESSAGE Restoring info for: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin\python3.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin\python3.exe
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:458)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Expecting: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\samples\.metadata\.plugins\org.python.pydev\v1_6u9uue6msagowdk0sloii5bor\modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:342)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:422)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:456)
+	... 29 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-21 10:49:03.445
+!MESSAGE Finished restoring information for: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin\python3.exe at: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\samples\.metadata\.plugins\org.python.pydev\v1_6u9uue6msagowdk0sloii5bor
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin\python3.exe at: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\samples\.metadata\.plugins\org.python.pydev\v1_6u9uue6msagowdk0sloii5bor
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:503)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-02-21 10:49:37.376 -----------------------------------------------
+eclipse.buildId=6.1.0.241008-f7568267cd
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ecf.provider.filetransfer.httpclient5.win32 4 0 2025-02-21 10:49:39.719
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ecf.provider.filetransfer.httpclient5.win32 [159]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.3,6.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2074)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2065)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2005)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1968)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1884)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.epp.mpc.core.win32 4 0 2025-02-21 10:49:39.886
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core.win32 [176]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.impl.win; version="[5.1.0,5.4.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:493)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2074)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2065)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2005)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1968)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1884)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.omnetpp.main 1 0 2025-02-21 10:50:02.560
+!MESSAGE OMNeT++ IDE 6.1.0.241008-f7568267cd started.
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-21 10:50:33.002
+!MESSAGE Info: Rebuilding internal caches: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\samples\.metadata\.plugins\com.python.pydev.analysis\python_v1_6u9uue6msagowdk0sloii5bor\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.eclipse.help.base 2 0 2025-02-21 10:51:24.337
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_11.6.1.202406241230 [88]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.eclipse.help.base 2 0 2025-02-21 10:51:24.342
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120 [373]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.eclipse.help.base 2 0 2025-02-21 10:51:24.376
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.1.0.v201903222120 [386]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.eclipse.help.base 2 0 2025-02-21 10:51:24.380
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201903222120 [389]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.eclipse.help.base 2 0 2025-02-21 10:51:24.388
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.2.0.v201903222120 [376]'. The index should be rebuilt with Lucene 9.11.1
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-21 10:51:25.786
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:scipy
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin\python3.exe -u C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\ide\plugins\org.python.pydev.core_12.2.0.202409031913\pysrc\pycompletionserver.py 61940
+
+ - Environment:
+!;=;\
+ACLOCAL_PATH=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\share\aclocal;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\share\aclocal
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\diego\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=DIEGOMARM
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIG_SITE=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/etc/config.site
+CONICON=mingw64.ico
+CONTITLE=MinGW x64
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_21748=1
+ENVIRONMENT=mingw64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOME=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\
+HOMEDRIVE=C:
+HOMEPATH=\Users\diego
+HOSTNAME=Diegomarm
+INFOPATH=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\local\info;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\share\info;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\info;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\share\info
+LANG=en_US.UTF-8
+LC_CTYPE=es_ES.UTF-8
+LOCALAPPDATA=C:\Users\diego\AppData\Local
+LOGINSHELL=bash
+LOGONSERVER=\\DIEGOMARM
+MANPATH=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\local\man;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\share\man;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\local\man;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\share\man;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\man;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\share\man
+MINGW_CHOST=x86_64-w64-mingw32
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+MINGW_PREFIX=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/mingw64
+MSYSCON=mintty.exe
+MSYSTEM=MINGW64
+MSYSTEM_CARCH=x86_64
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MSYSTEM_PREFIX=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/mingw64
+NUMBER_OF_PROCESSORS=16
+OLDPWD=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1
+OMNETPP_IMAGE_PATH=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/images
+OMNETPP_RELEASE=omnetpp-6.1
+ONEDRIVE=C:\Users\diego\OneDrive
+ONEDRIVECONSUMER=C:\Users\diego\OneDrive
+ORIGINAL_PATH=C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+ORIGINAL_TEMP=C:/Users/diego/AppData/Local/Temp
+ORIGINAL_TMP=C:/Users/diego/AppData/Local/Temp
+OS=Windows_NT
+PATH=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_21.0.4.v20240802-1551/jre/bin/server;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/ide//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_21.0.4.v20240802-1551/jre/bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\opt\mingw64\bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\local\bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin\site_perl;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin\vendor_perl;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin\core_perl;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PKG_CONFIG_PATH=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\lib\pkgconfig;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\share\pkgconfig
+PRINTER=Microsoft Print to PDF
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=ba02
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PWD=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1
+PYTHONPATH=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\ide\plugins\org.python.pydev.core_12.2.0.202409031913\pysrc\pydev_sitecustomize;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\ide\plugins\org.omnetpp.scave.pychart_6.1.0.241008-f7568267cd\python;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/python;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/mingw64/lib/python3.10;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/mingw64/lib/python3.10/lib-dynload;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1;C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/tools/win32.x86_64/mingw64/lib/python3.10/site-packages
+QT_LOGGING_RULES=*.warning=false;qt.qpa.*=false
+QT_SELECT=5
+SESSIONNAME=Console
+SHELL=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin\bash.exe
+SHELL_ARGS=-c "nohup >/dev/null 2>/dev/null $HOME/bin/omnetpp"
+SHLVL=1
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\tmp
+TERM=xterm-256color
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.6.1
+TMP=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\tmp
+USER=diego
+USERDOMAIN=DIEGOMARM
+USERDOMAIN_ROAMINGPROFILE=DIEGOMARM
+USERNAME=diego
+USERPROFILE=C:\Users\diego
+USE_MSYS_SEED=no
+WD=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\bin\
+WINDIR=C:\Windows
+WITHIN_OMNETPP_IDE=yes
+XDG_DATA_DIRS=C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\mingw64\share\;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\local\share\;C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\tools\win32.x86_64\usr\share\
+ZES_ENABLE_SYSMAN=1
+_=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1/ide/opp_ide.exe
+__OMNETPP_ROOT_DIR=C:/Users/diego/OneDrive/Escritorio/omnetpp-6.1
+
+ - Working Dir:
+C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\ide\plugins\org.python.pydev.core_12.2.0.202409031913\pysrc
+
+ - OS:
+Windows 11
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.SocketChannelImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingRead(Unknown Source)
+	at java.base/sun.nio.ch.SocketInputStream.read(Unknown Source)
+	at java.base/java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:457)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:515)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:710)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:378)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:180)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:349)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:395)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:259)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:171)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:97)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:83)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 4 4 2025-02-21 10:51:28.500
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2025-02-21 10:51:28.500
+!MESSAGE Parse error occurred while adding document /org.omnetpp.doc/content/WhatsNew.html to search index C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\ide\configuration\org.eclipse.help.base\index\es_ES.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "\"" at line 5369, column 50.
+Was expecting one of:
+    <ArgName> ...
+    <TagEnd> ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:694)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:575)
+	at org.apache.lucene.demo.html.HTMLParser.Tag(HTMLParser.java:299)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:192)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:95)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:92)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:64)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:264)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:248)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:108)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:622)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:596)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.omnetpp.main 4 0 2025-02-21 10:51:38.369
+!MESSAGE assertion failed: 
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-21 10:52:04.350
+!MESSAGE Unexpected overload for binary operator 5: 'operator -'
+
+!ENTRY org.eclipse.core.expressions 4 201 2025-02-21 10:54:17.431
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.CContainer
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.CContainer
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:132)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:283)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:226)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:224)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:241)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:105)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:146)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:127)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:55)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:224)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:218)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:176)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:257)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:467)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1179)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5138)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4756)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2025-02-21 10:54:17.432
+!MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.cdt.internal.core.model.CContainer
+
+!ENTRY org.omnetpp.scave 2 0 2025-02-21 10:54:42.485
+!MESSAGE No Scave editor state was saved for file: C:\Users\diego\OneDrive\Escritorio\omnetpp-6.1\samples\aloha\grafica.anf.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-21 10:55:26.659
+!MESSAGE Indexed 'inet4.5' (1.319 sources, 2.126 headers) in 223 sec: 217.461 declarations; 872.660 references; 1.384 unresolved inclusions; 7 syntax errors; 42.257 unresolved names (3,7 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-21 10:58:35.932
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-21 10:58:35.948
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-21 10:58:35.955
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-21 10:58:39.032
+!MESSAGE Indexed 'aloha' (2 sources, 547 headers) in 10,1 sec: 86.301 declarations; 157.896 references; 0 unresolved inclusions; 3 syntax errors; 157 unresolved names (0,064 %)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-21 11:09:47.490
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.TableColumn.getText()" because "this.selectedColumn" is null
+	at org.omnetpp.scave.editors.datatable.DataTable.handleMouseDown(DataTable.java:1156)
+	at org.omnetpp.scave.editors.datatable.DataTable$2.mouseDown(DataTable.java:269)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:209)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)

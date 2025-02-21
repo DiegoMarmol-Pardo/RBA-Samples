@@ -1,0 +1,3 @@
+10:52:25 **** Build of configuration release for project aloha ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
