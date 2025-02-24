@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+*.snap
+*.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap

@@ -1,6 +1,6 @@
-10:52:25 **** Build of configuration release for project aloha ****
+10:11:27 **** Incremental Build of configuration release for project aloha ****
 make MODE=release all 
 make: Nothing to be done for 'all'.
 
-10:52:26 Build Finished. 0 errors, 0 warnings. (took 1s.12ms)
+10:11:28 Build Finished. 0 errors, 0 warnings. (took 1s.360ms)
 
